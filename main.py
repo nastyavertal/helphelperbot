@@ -60,5 +60,5 @@ updater.dispatcher.add_handler(CommandHandler('start', wake_up))
 updater.dispatcher.add_handler(CommandHandler('newcat', new_cat))
 updater.dispatcher.add_handler(CommandHandler('newdog', new_dog))
 
-updater.start_polling(poll_interval=20.0)
+updater.start_polling()
 updater.idle()
